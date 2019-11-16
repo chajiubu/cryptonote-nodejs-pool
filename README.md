@@ -209,9 +209,7 @@ Explanation for each field:
 "cnAlgorithm": "cryptonight",
 "cnVariant": 1,
 "cnBlobType": 0,
-"includeHeight":false, /*true to include block.height in job to miner*/
-"includeAlgo":"cn/wow", /*wownero specific change to include algo in job to miner*/
-"isRandomX":"false", /*instruct pool to send seed during blob conversion*/
+
 /* Logging */
 "logging": {
 
@@ -411,7 +409,6 @@ Explanation for each field:
 "wallet": {
     "host": "127.0.0.1",
     "port": 18982,
-    "username": "--rpc-username", //monero based wallet authentication
     "password": "--rpc-password"
 },
 
