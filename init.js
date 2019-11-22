@@ -24,7 +24,8 @@ global.redisClient = redis.createClient(config.redis.port, config.redis.host, { 
 
 if (typeof config.childPools !== 'undefined')
     config.childPools = config.childPools.filter(pool => pool.enabled)
-
+else
+    config.childPools = [];
 // Load pool modules
 if (cluster.isWorker){
     switch(process.env.workerType){
