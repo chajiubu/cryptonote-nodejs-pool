@@ -359,15 +359,18 @@ currentPage = {
                 algorithm = 'RandomX (Scala)';
             else if (cnVariant === 2)
                 algorithm = 'RandomX (Arqma)';
-            else if (cnVariant === 17)
+            else if (cnVariant === 17) {
                 algorithm = 'RandomX (Wownero)';
                 xmrstakAlgo = 'randomX_wow';
-            else if (cnVariant === 18)
+	    }
+            else if (cnVariant === 18) {
                 algorithm = 'RandomX (Loki)';
                 xmrstakAlgo = 'randomX_loki';
-            else
+	    }
+            else {
                 algorithm = 'RandomX (Monero)';
                 xmrstakAlgo = 'randomX';
+	    }
         }
         else if (cnAlgorithm == "cryptonight_light") {
             if (cnVariant === 1) {
