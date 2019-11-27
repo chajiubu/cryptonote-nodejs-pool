@@ -170,16 +170,8 @@ function spawnPoolWorkers(){
         log('error', logSystem, 'Pool server enabled but no ports specified');
         return;
     }
-    var numForks = (function(){
-        if (!config.poolServer.clusterForks)
-            return 1;
-        if (config.poolServer.clusterForks === 'auto')
-            return os.cpus().length;
-        if (isNaN(config.poolServer.clusterForks))
-            return 1;
-        return config.poolServer.clusterForks;
-    })();
-
+    let numForks = config.childPools.length;
+    if (numForks === 0) return;
     var poolWorkers = {};
 
     var createPoolWorker = function(forkId){
