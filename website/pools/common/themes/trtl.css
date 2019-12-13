@@ -3,10 +3,10 @@
 @import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 body {  
-  background-color: #F5F5F5;
+  background-color: #242424;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   line-height: 1.428571429;
-  color: #262626;
+  color: #F5F5F5;
   margin: 0;
   padding: 0;
   margin-bottom: 85px;
@@ -95,7 +95,7 @@ footer{
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #262626;
+  background-color: #000000;
   font-size: 14px;
   color: #efefef;
   z-index: 9999;
