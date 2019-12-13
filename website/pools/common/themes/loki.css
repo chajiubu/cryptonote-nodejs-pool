@@ -3,7 +3,7 @@
 @import url(//fonts.googleapis.com/css?family=Inconsolata:400,700);
 
 body {  
-  background-color: #242424;
+  background-color: #000000;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   line-height: 1.428571429;
   color: #F5F5F5;
@@ -95,7 +95,7 @@ footer{
   position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: #000000;
+  background-color: #242424;
   font-size: 14px;
   color: #efefef;
   z-index: 9999;
@@ -133,7 +133,7 @@ footer > div{
   overflow: auto;
   font-size: 16px;
   font-weight: 200;
-  background-color: rgba(0, 0, 0, .8);
+  background-color: rgba(36, 36, 36, .8);
   position: fixed;
   top: 0;
   width: 225px;
