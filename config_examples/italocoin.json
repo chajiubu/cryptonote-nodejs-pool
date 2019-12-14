@@ -26,7 +26,8 @@
             "colors": true
         }
     },
-
+    "childPools": null,
+    
     "poolServer": {
         "enabled": true,
         "mergedMining": false,
